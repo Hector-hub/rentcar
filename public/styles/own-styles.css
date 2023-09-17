@@ -1,0 +1,77 @@
+/* Global colors */
+.globalColor{
+    background-color: #343a40;
+  }
+/* end Global colors */
+
+.ocultar {
+  display: none;
+}
+
+.mostrar {
+  display: block;
+}
+
+/* Footer  */
+  .footer {
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+   
+}  
+/* end Footer */ 
+
+
+@media screen and (max-width: 1375px) {
+  .responsive-table-1350px {
+    display: block;
+    overflow-x: auto;
+  }
+
+  .divice-rotation{
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  
+  .col-100{
+    width: 100% !important;
+  }
+  .panel-right{
+    width: 40% !important;
+  }
+  .panel-left{
+    width: 60% !important;
+  }
+  .responsive-table-800px{
+    display: block;
+    overflow-x: auto;
+  }
+  .divice-rotation{
+    display: none !important;
+  }
+}
+@media screen and (max-width: 761px) {
+  
+
+  .responsive-table-761px{
+    display: block;
+    overflow-x: auto;
+  }
+  .divice-rotation{
+    display: none !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  
+
+  .responsive-table-761px{
+    display: block;
+    overflow-x: auto;
+  }
+  .divice-rotation{
+    display: block !important;
+  }
+}
